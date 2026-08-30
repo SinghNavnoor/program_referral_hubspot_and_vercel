@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/referral.ts": {
+      "maxDuration": 60
+    },
+    "api/pandadoc.ts": {
+      "maxDuration": 60
+    }
+  }
+}

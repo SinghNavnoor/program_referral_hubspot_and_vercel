@@ -1,0 +1,37 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Vercel CLI state and credentials
+.vercel
+.vercel-*/
+
+# Dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Real client data — never commit exports, dumps or fixtures with real PII
+data/
+exports/
+*.csv
+*.xlsx
+*.xls
+*.pdf
+*.sqlite
+*.db
+*.sql
+*.dump
+
+# Logs and local scratch
+*.log
+npm-debug.log*
+tmp/
+.cache/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
